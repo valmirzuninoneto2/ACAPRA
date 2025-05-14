@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  height: 100px;
+  width: 100%;
+  background-color: #5A4A8D;
+  justify-content: center;
+  display: flex;
+}
+
+
+.header div {
+  align-items: center;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.header nav ul li {
+  color: #383838;
+  text-align: center;
+  font-family: lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.header nav ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: #ffffff;
+}
+.header nav ul li a:hover {
+  transition: 0.1s;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 2px;
+}
+.banner {
+  width: 100%;
+  height: 90vh;
+  padding-top: 100px;
+}
+.homeImage{
+  
+}
+.banner-img {
+  background-image: url("assets/Cachorro-fundo.png");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+.title-advb {
+  color: #ffffff;
+  font-family: Cabin;
+  font-size: 114px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+.textBanner {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+
+.buttonQueroAdotar{
+  width: 410px;
+  height: 67px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  background: #5A4A8D;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.quem-somos {
+  padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+
+.quemSomos {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+
+.text-quem-somos {
+  width: 50%;
+  border-bottom: solid 3px;
+}
+
+.img-quem-somos {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Parágrafo final */
+.paragrafo-final {
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: 800;
+}
+.oque-fazemos{
+    padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+.oqueFazemos{
+display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+.textOqueFazemos p{
+    margin-top: 20px;
+}
+.contatoDenuncia{
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.diga-nao{
+    padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+.digaNao{
+display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+.textDigaNao p{
+    margin-top: 20px;
+}
+.quem-somos {
+  padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+
+.denuncie {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+.textDenuncie{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgDenuncie {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contatoDenuncia{
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.noticias{
+    padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+.sectionNoticias{
+display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+.textDigaNao p{
+    margin-top: 20px;
+}
+
+.noticias h2 {
+  font-family: "DM Sans", sans-serif; 
+  font-size: 48px;
+  color: #5A4A8D;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.div-carrosel {
+  display: flex;
+  width: 80%;
+  height: 20rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+.item {
+  padding-right: 3rem;
+}
+.item img {
+  border-radius: 10px;
+}
+.title-noticia {
+  margin-top: -9rem;
+}
+.title-noticia p {
+  color: rgba(255, 255, 255, 0.85);
+
+  text-align: center;
+  font-family: Cabin;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.divCarousel{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer {
+  margin-top: 50px;
+   color: #ffffff;
+  width: 100%;
+  background: #5A4A8D;
+  font-family: "DM Sans", sans-serif; 
+}
+.logoFooter{
+    padding-right: 3rem;
+    border-right: 3px solid;
+}
+
+footer p {
+ 
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container {
+    padding: 20px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.content-footer {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 250px;
+}
+.contatos {
+  display: flex;
+      gap: 15rem;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.copy p{
+    font-size: 16px;
+}
