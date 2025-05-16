@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.historia-missao{
+padding: 120px 0 0 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+.historiaMissao{
+display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+.texthistoriaMissao P{
+margin-top: 20px;
+}
+.texthistoriaMissao h2{
+  display: flex;
+  justify-content: center;
+} 
