@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bannerDoe {
+  width: 100%;
+  height: 90vh;
+  padding-top: 100px;
+}
+.bannerDoe-img {
+  background-image: url("/doe-aqui/cachorros.png");
+  opacity: 10;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+.text-bannerDoe {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+.textBanner {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+.buttonQueroDoar{
+  width: 410px;
+  height: 67px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  background: #5A4A8D;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.historia-missao{
+width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* mudar para coluna */
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #5A4A8D;
+}
+.historiaMissao{
+display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que fique responsivo */
+  width: 100%;
+}
+.historia-missao p{
+  font-weight: 500;
+  font-size: 20px;
+}
+.doacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.doacoes h3{
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.pix {
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.buttonQueroDoarPix{
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  background: #5A4A8D;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
