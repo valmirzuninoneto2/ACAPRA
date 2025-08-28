@@ -136,7 +136,6 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  flex-wrap: wrap; /* permite que fique responsivo */
   width: 100%;
 }
 
